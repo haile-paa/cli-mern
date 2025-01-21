@@ -1,0 +1,42 @@
+{
+  "name": "cli-mern",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "mern",
+    "react",
+    "tailwindcss",
+    "toast-notifications"
+  ],
+  "author": "Haileyesus Eyasu",
+  "license": "MIT",
+  "description": "A custom CLI tool to set up a MERN stack project with React, Tailwind CSS, and toast notifications.",
+  "bin": {
+    "create-mern-project": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haile-paa/cli-mern.git"
+  },
+  "homepage": "https://github.com/haile-paa/cli-mern",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.7",
+    "tailwindcss": "^3.4.17",
+    "toastify-js": "^1.13.2"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
